@@ -19,7 +19,7 @@ $ cd PWS-15_e1_travis-ci
 
   - запустить игру
 ```
-$ pytest game.py
+$ python game.py
 ```
 
 ## Запуск тестов вручную
@@ -45,5 +45,5 @@ $ pip install -r requirements.txt
   - запустить тесты
 ```
 $ pytest
-$ pytest --cov
+$ pytest --cov=game
 ```
